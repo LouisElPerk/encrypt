@@ -46,3 +46,19 @@ with open('D:/UTP/9 semestre/SEGURIDAD EN TECNOLOGIA DE COMPUTACION/nba.csv', 'w
 # # writing the decrypted data
 # with open('D:/UTP/9 semestre/SEGURIDAD EN TECNOLOGIA DE COMPUTACION/nba.csv', 'wb') as dec_file:
 # 	dec_file.write(decrypted)
+
+opcion=input("Programa para cifrar o decifrar un archivo \n\n\n1.  Cifrar\n2.  Decifrar\n3.  Salir")
+
+
+while opcion:
+    if opcion==1:
+        print("Cifrando...")
+
+    elif opcion==2:
+        print("Descifrando...")
+
+    elif opcion==3:
+        print("Salienndo...")
+        
+    else:
+        os.system ("cls")
